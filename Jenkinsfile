@@ -12,7 +12,7 @@ pipeline {
                     
                 }
             }
-            stage('Deploy'){
+         stage('Deploy'){
                 steps{
                     echo "Not really deploying anything"
                 }
